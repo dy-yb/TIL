@@ -40,5 +40,21 @@ print(whatIsYourName)
 
 
 
+//1. 최애 음식이름을 담는 변수 작성 (String?)
+//2. 옵셔널 바인딩을 이용해 값 확인
+//3. 닉네임 받아서 출력하는 함수 만들기 조건 입력 파라미터는 String?
 
+var foodName: String? = "떡볶이"
+print(foodName!)
 
+var nickName: String?
+func printNickName(_ nick: String?){
+    if nick == nil{
+        print("No Nickname.")
+    } else {
+        print(nick!)
+    }
+}
+
+printNickName("jjong")
+printNickName("")
