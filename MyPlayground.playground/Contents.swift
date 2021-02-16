@@ -56,5 +56,25 @@ func printNickName(_ nick: String?){
     }
 }
 
+//다른방법 1,2
+
+func printNickName1(nick: String?){
+    if let nickName = nick {
+        print(nickName)
+    } else {
+        print("no nickname")
+    }
+}
+
+
+func printNickName2(name: String?){
+    guard let nickName = name else {
+        print("nickname needed")
+        return
+    }
+    print(nickName)
+}
+
+
 printNickName("jjong")
 printNickName("")
