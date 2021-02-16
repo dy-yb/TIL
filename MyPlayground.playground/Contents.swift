@@ -100,5 +100,14 @@ func printNameAndCity (dic: [String:String]){
 
 printNameAndCity(dic: dicMyInfo)
 
+//다른 방법
+
+func printNameAndCity2(dic: [String:String]){
+    if let name = dic["name"], let city = dic["city"]{
+        print(name, city)
+    } else {
+        print("Couldn't find info")
+    }
+}
 
 
