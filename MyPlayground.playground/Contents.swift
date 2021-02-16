@@ -78,3 +78,27 @@ func printNickName2(name: String?){
 
 printNickName("jjong")
 printNickName("")
+
+
+// 1. 이름, 직업, 도시에 대해 본인의 딕셔너리 생성
+// 2. 도시를 부산으로 업데이트
+// 3. 딕셔너리를 받아 이름과 도시 프린트하는 함수 생성
+
+var dicMyInfo: [String:String] = ["Name":"Daye", "Occupation":"Technology Officer", "City": "Gyeonggi"]
+
+dicMyInfo["City"]="Busan"
+
+func printNameAndCity (dic: [String:String]){
+    for (key, value) in dic{
+        if key == "Occupation" {
+        } else {
+        print("\(key): \(value)")
+    
+        }
+    }
+}
+
+printNameAndCity(dic: dicMyInfo)
+
+
+
