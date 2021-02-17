@@ -110,4 +110,77 @@ func printNameAndCity2(dic: [String:String]){
     }
 }
 
+//Closure practices
+var multiplyClosure: (Int, Int) -> Int = { a, b in
+    return a * b
+}
 
+
+func operateTwoNum(a: Int, b: Int, operation: (Int, Int) -> Int) -> Int{
+    let result = operation(a, b)
+    return result
+}
+
+operateTwoNum(a: 4, b: 2, operation: multiplyClosure)
+
+var addClosure: (Int, Int) -> Int = {
+    return $0 + $1
+}
+
+operateTwoNum(a: 4, b: 2, operation: addClosure)
+
+operateTwoNum(a: 4, b: 2) {a, b in return a / b}
+
+//Closure examples
+/*
+ {(parameters) -> returnType in
+    statements
+    ...
+ }
+ */
+//1: Cho Simple Closure
+
+let choSimpleClosure1 = {}
+
+choSimpleClosure1()
+
+//2: 코드블록을 구현한 Closure
+
+let choSimpleClosure2 = {
+    print("Hello Closure!")
+}
+
+choSimpleClosure2()
+
+//3: input parameter를 받는 Closure
+
+let choSimpleClosure3: (String) -> Void = { name in
+    print(name)
+}
+
+choSimpleClosure3("Closure")
+
+
+//4: return값이 있는 Closure
+
+let choSimpleClosure4: (String) -> String = { name in
+    let sayHello = " Hi"
+    return name + sayHello
+}
+
+let result = choSimpleClosure4("Closure")
+
+print(result)
+
+//5: Closure를 파라미터로 받는 함수
+
+func someSimpleFunction(number: Int, choSimpleClosure5: () -> Void){
+    print("Function called.")
+    choSimpleClosure5()
+}
+
+someSimpleFunction(number: 5, choSimpleClosure5: {print("Good!")})
+
+
+//6: Trailing Closure
+someSimpleFunction(number: 5) {print("Good!")}
