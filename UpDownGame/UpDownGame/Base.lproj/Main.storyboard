@@ -55,7 +55,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKC-rj-WiJ">
-                                <rect key="frame" x="438.5" y="156" width="19" height="20.5"/>
+                                <rect key="frame" x="438.5" y="141" width="19" height="20.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" systemColor="systemPurpleColor"/>
                                 <nil key="highlightedColor"/>
@@ -107,7 +107,7 @@
                             <constraint firstItem="0Sw-Sk-R9o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="db0-Se-14D"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="exh-Vy-XXI" secondAttribute="bottom" constant="15" id="e4j-f3-agF"/>
                             <constraint firstItem="THS-sz-6N7" firstAttribute="leading" secondItem="VkO-Qt-Reb" secondAttribute="trailing" constant="10" id="hML-Xi-twn"/>
-                            <constraint firstItem="hKC-rj-WiJ" firstAttribute="top" secondItem="0Sw-Sk-R9o" secondAttribute="bottom" constant="55" id="hhj-hR-Hjv"/>
+                            <constraint firstItem="hKC-rj-WiJ" firstAttribute="top" secondItem="0Sw-Sk-R9o" secondAttribute="bottom" constant="40" id="hhj-hR-Hjv"/>
                             <constraint firstItem="bdK-Li-FfB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jAB-tr-SyZ"/>
                             <constraint firstItem="5CJ-li-VDK" firstAttribute="top" secondItem="bdK-Li-FfB" secondAttribute="bottom" constant="55" id="pz7-Qa-YeB"/>
                             <constraint firstItem="exh-Vy-XXI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rwA-H6-hTf"/>
@@ -115,7 +115,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="maximumValueLabel" destination="qGg-yS-8AA" id="v0u-zz-om2"/>
+                        <outlet property="minimumValueLabel" destination="9XN-4s-cSF" id="pX6-XX-Z4T"/>
                         <outlet property="slider" destination="bdK-Li-FfB" id="6Zk-oZ-vdo"/>
+                        <outlet property="sliderValueLabel" destination="hKC-rj-WiJ" id="vcL-GL-TRv"/>
+                        <outlet property="tryCountLabel" destination="exh-Vy-XXI" id="uWi-ls-Aeu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
