@@ -175,6 +175,9 @@ Have a good day friends!</string>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                     </preferredSymbolConfiguration>
                                 </state>
+                                <connections>
+                                    <action selector="touchUpDismissButton:" destination="ccz-JO-r1V" eventType="touchUpInside" id="fLQ-wb-s1j"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tQO-dM-lD3"/>
