@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61A06C2F25FBB24B00413DF9 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A06C2E25FBB24B00413DF9 /* CreditViewController.swift */; };
 		61AF771B25ED2537003AB13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF771A25ED2537003AB13E /* AppDelegate.swift */; };
 		61AF771D25ED2537003AB13E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF771C25ED2537003AB13E /* SceneDelegate.swift */; };
 		61AF771F25ED2537003AB13E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF771E25ED2537003AB13E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61A06C2E25FBB24B00413DF9 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		61AF771725ED2537003AB13E /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AF771A25ED2537003AB13E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61AF771C25ED2537003AB13E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				61AF772325ED2538003AB13E /* Assets.xcassets */,
 				61AF772525ED2538003AB13E /* LaunchScreen.storyboard */,
 				61AF772825ED2538003AB13E /* Info.plist */,
+				61A06C2E25FBB24B00413DF9 /* CreditViewController.swift */,
 			);
 			path = UpDownGame;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				61AF771F25ED2537003AB13E /* ViewController.swift in Sources */,
 				61AF771B25ED2537003AB13E /* AppDelegate.swift in Sources */,
 				61AF771D25ED2537003AB13E /* SceneDelegate.swift in Sources */,
+				61A06C2F25FBB24B00413DF9 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
