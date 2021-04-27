@@ -14,6 +14,9 @@
 		6166FD3B2636EE020027A4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6166FD3A2636EE020027A4EA /* Assets.xcassets */; };
 		6166FD3E2636EE020027A4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6166FD3C2636EE020027A4EA /* LaunchScreen.storyboard */; };
 		6166FD4A2636FE840027A4EA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6166FD492636FE840027A4EA /* InfoViewController.swift */; };
+		61A29AD2263838E700D4FB92 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29AD1263838E700D4FB92 /* CalculatorViewController.swift */; };
+		61A29AD52638390400D4FB92 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29AD42638390400D4FB92 /* RecipesViewController.swift */; };
+		61A29AD82638391300D4FB92 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29AD72638391300D4FB92 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		6166FD3D2636EE020027A4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6166FD3F2636EE020027A4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6166FD492636FE840027A4EA /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		61A29AD1263838E700D4FB92 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		61A29AD42638390400D4FB92 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		61A29AD72638391300D4FB92 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				6166FD3C2636EE020027A4EA /* LaunchScreen.storyboard */,
 				6166FD3F2636EE020027A4EA /* Info.plist */,
 				6166FD492636FE840027A4EA /* InfoViewController.swift */,
+				61A29AD1263838E700D4FB92 /* CalculatorViewController.swift */,
+				61A29AD42638390400D4FB92 /* RecipesViewController.swift */,
+				61A29AD72638391300D4FB92 /* TimerViewController.swift */,
 			);
 			path = BakingHelper;
 			sourceTree = "<group>";
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A29AD2263838E700D4FB92 /* CalculatorViewController.swift in Sources */,
 				6166FD362636EE010027A4EA /* HomeViewController.swift in Sources */,
 				6166FD322636EE010027A4EA /* AppDelegate.swift in Sources */,
+				61A29AD82638391300D4FB92 /* TimerViewController.swift in Sources */,
 				6166FD4A2636FE840027A4EA /* InfoViewController.swift in Sources */,
+				61A29AD52638390400D4FB92 /* RecipesViewController.swift in Sources */,
 				6166FD342636EE010027A4EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
