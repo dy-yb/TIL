@@ -11,7 +11,8 @@ class CalculatorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = .white
+        navigationItem.title = "Calculator"
         // Do any additional setup after loading the view.
     }
     

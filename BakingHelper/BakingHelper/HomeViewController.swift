@@ -9,14 +9,17 @@ import UIKit
 
 class HomeViewController: UITableViewController {
 
+    
+    
     let cellID = "cellID"
     let header: [String] = ["Menu", "Info"]
     let menu: [[String]] = [["Calculator", "Recipes", "Timer"],["App Info"]]
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         navigationItem.title = "Baking Time!"
-        
+        view.backgroundColor = .white
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
