@@ -17,6 +17,8 @@
 		61A29AD2263838E700D4FB92 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29AD1263838E700D4FB92 /* CalculatorViewController.swift */; };
 		61A29AD52638390400D4FB92 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29AD42638390400D4FB92 /* RecipesViewController.swift */; };
 		61A29AD82638391300D4FB92 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29AD72638391300D4FB92 /* TimerViewController.swift */; };
+		61CD5AA22647D16D0028593E /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD5AA12647D16D0028593E /* HomeCollectionViewController.swift */; };
+		61CD5AA42647DBAA0028593E /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD5AA32647DBAA0028593E /* HomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		61A29AD1263838E700D4FB92 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		61A29AD42638390400D4FB92 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		61A29AD72638391300D4FB92 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		61CD5AA12647D16D0028593E /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		61CD5AA32647DBAA0028593E /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				61A29AD42638390400D4FB92 /* RecipesViewController.swift */,
 				61A29AD72638391300D4FB92 /* TimerViewController.swift */,
 				613A289D2642AE1400A1C299 /* AddRecipeViewController.swift */,
+				61CD5AA12647D16D0028593E /* HomeCollectionViewController.swift */,
+				61CD5AA32647DBAA0028593E /* HomeCollectionViewCell.swift */,
 			);
 			path = BakingHelper;
 			sourceTree = "<group>";
@@ -148,10 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CD5AA22647D16D0028593E /* HomeCollectionViewController.swift in Sources */,
 				613A289E2642AE1400A1C299 /* AddRecipeViewController.swift in Sources */,
 				61A29AD2263838E700D4FB92 /* CalculatorViewController.swift in Sources */,
 				6166FD362636EE010027A4EA /* HomeViewController.swift in Sources */,
 				6166FD322636EE010027A4EA /* AppDelegate.swift in Sources */,
+				61CD5AA42647DBAA0028593E /* HomeCollectionViewCell.swift in Sources */,
 				61A29AD82638391300D4FB92 /* TimerViewController.swift in Sources */,
 				6166FD4A2636FE840027A4EA /* InfoViewController.swift in Sources */,
 				61A29AD52638390400D4FB92 /* RecipesViewController.swift in Sources */,
