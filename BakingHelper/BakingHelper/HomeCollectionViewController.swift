@@ -35,6 +35,7 @@ class HomeCollectionViewController: UIViewController {
         navigationItem.title = "Baking Time!"
         view.backgroundColor = .white
         
+        
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
         collectionView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
